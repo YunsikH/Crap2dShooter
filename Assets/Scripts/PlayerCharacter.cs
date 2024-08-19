@@ -19,7 +19,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        move = MoveAction.ReadValue<Vector2>();
+        Vector2 move = MoveAction.ReadValue<Vector2>();
+        Debug.Log(move);
+        Vector2 position = (Vector2)transform.position + move * speed * Time.deltaTime;
+        transform.position = position;
     }
 
 }
