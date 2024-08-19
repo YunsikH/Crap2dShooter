@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="SanityMeter" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/Sprites/Sanity.png?fileID=21300000&amp;guid=15c591fe99e41314a871686c461640ad&amp;type=3#Sanity&quot;); width: 206px; height: 198px; -unity-background-scale-mode: scale-to-fit;" />
+</ui:UXML>
