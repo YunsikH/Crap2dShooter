@@ -18,7 +18,7 @@ namespace Samples.Editor.Controls
         }
         public void CreateGUI()
         {
-            showToggle = new Toggle("Show label")
+            showToggle = new Toggle("Show dah label")
             {
                 value = true
             };
@@ -26,10 +26,10 @@ namespace Samples.Editor.Controls
             {
                 value = true
             };
-            labelToShow = new Label("This label is shown when the above toggle is set to On");
+            labelToShow = new Label("This label is <sprite name = >");
             buttonToActivate = new Button(() => Debug.Log("Button pressed!"))
             {
-                text = "Active if above toggle is On"
+                text = "Active if above shifuck toggle is On"
             };
             rootVisualElement.Add(showToggle);
             rootVisualElement.Add(labelToShow);
